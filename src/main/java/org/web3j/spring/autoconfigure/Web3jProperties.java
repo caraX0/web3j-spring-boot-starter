@@ -15,8 +15,6 @@ public class Web3jProperties {
     private String clientAddress;
 
     private Boolean adminClient;
-    
-    private String networkId;
 
     public String getClientAddress() {
         return clientAddress;
@@ -33,13 +31,4 @@ public class Web3jProperties {
     public void setAdminClient(Boolean adminClient) {
         this.adminClient = adminClient;
     }
-    
-    public String getNetworkId() {
-        return networkId;
-    }
-
-    public void setNetworkId(String networkId) {
-        this.networkId = networkId;
-    }
-    
 }
